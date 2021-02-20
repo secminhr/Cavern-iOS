@@ -1,21 +1,15 @@
-//
-//  ContentView.swift
-//  Cavern-iOS
-//
-//  Created by secminhr on 2021/2/16.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    let list: [ArticlePreview]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ArticlePreviewList(previews: list)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(list: articlePreviewResponseSample.posts)
     }
 }

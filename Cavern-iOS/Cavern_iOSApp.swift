@@ -11,7 +11,7 @@ import SwiftUI
 struct Cavern_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(list: articlePreviewResponseSample.posts)
         }
     }
 }
