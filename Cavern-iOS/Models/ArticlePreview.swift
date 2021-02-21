@@ -4,6 +4,9 @@ struct ArticlePreviewResponse: Codable {
     let page_limit: Int
     let page: Int
     let all_posts_count: Int
+    var hasNextPage: Bool {
+        page_limit * page < all_posts_count
+    }
     
     let posts: [ArticlePreview]
 }
