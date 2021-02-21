@@ -12,6 +12,7 @@
 		4FE5CA2D25E16548005A818A /* ArticlePreviewSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FE5CA2C25E16548005A818A /* ArticlePreviewSample.json */; };
 		4FE5CA3025E16810005A818A /* ArticlePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA2F25E16810005A818A /* ArticlePreviewRow.swift */; };
 		4FE5CA3325E16D10005A818A /* ArticlePreviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */; };
+		4FE5CA3B25E2059D005A818A /* JsonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA3A25E2059B005A818A /* JsonTool.swift */; };
 		4FE8D9BB25DBEA4B0082E0C5 /* Cavern_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BA25DBEA4B0082E0C5 /* Cavern_iOSApp.swift */; };
 		4FE8D9BD25DBEA4B0082E0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BC25DBEA4B0082E0C5 /* ContentView.swift */; };
 		4FE8D9BF25DBEA4E0082E0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BE25DBEA4E0082E0C5 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		4FE5CA2C25E16548005A818A /* ArticlePreviewSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArticlePreviewSample.json; sourceTree = "<group>"; };
 		4FE5CA2F25E16810005A818A /* ArticlePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePreviewRow.swift; sourceTree = "<group>"; };
 		4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePreviewList.swift; sourceTree = "<group>"; };
+		4FE5CA3A25E2059B005A818A /* JsonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTool.swift; sourceTree = "<group>"; };
 		4FE8D9B725DBEA4B0082E0C5 /* Cavern-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cavern-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE8D9BA25DBEA4B0082E0C5 /* Cavern_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cavern_iOSApp.swift; sourceTree = "<group>"; };
 		4FE8D9BC25DBEA4B0082E0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,22 @@
 			path = Samples;
 			sourceTree = "<group>";
 		};
+		4FE5CA3925E2057C005A818A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4FE5CA3A25E2059B005A818A /* JsonTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4FE5CA3F25E21296005A818A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE5CA2825E15FCC005A818A /* ArticlePreview.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4FE8D9AE25DBEA4A0082E0C5 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +98,8 @@
 		4FE8D9B925DBEA4B0082E0C5 /* Cavern-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4FE5CA3F25E21296005A818A /* Models */,
+				4FE5CA3925E2057C005A818A /* Tools */,
 				4FE5CA3625E17078005A818A /* Samples */,
 				4FE5CA3525E17067005A818A /* Views */,
 				4FE8D9BA25DBEA4B0082E0C5 /* Cavern_iOSApp.swift */,
@@ -87,7 +107,6 @@
 				4FE8D9BE25DBEA4E0082E0C5 /* Assets.xcassets */,
 				4FE8D9C325DBEA4E0082E0C5 /* Info.plist */,
 				4FE8D9C025DBEA4E0082E0C5 /* Preview Content */,
-				4FE5CA2825E15FCC005A818A /* ArticlePreview.swift */,
 			);
 			path = "Cavern-iOS";
 			sourceTree = "<group>";
@@ -174,6 +193,7 @@
 				4FE5CA3025E16810005A818A /* ArticlePreviewRow.swift in Sources */,
 				4FE5CA2925E15FCC005A818A /* ArticlePreview.swift in Sources */,
 				4FE8D9BD25DBEA4B0082E0C5 /* ContentView.swift in Sources */,
+				4FE5CA3B25E2059D005A818A /* JsonTool.swift in Sources */,
 				4FE8D9BB25DBEA4B0082E0C5 /* Cavern_iOSApp.swift in Sources */,
 				4FE5CA3325E16D10005A818A /* ArticlePreviewList.swift in Sources */,
 			);

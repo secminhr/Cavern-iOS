@@ -17,15 +17,12 @@ struct ArticlePreviewRow: View {
                     .font(.title2)
                 Text(preview.name)
                     .font(.subheadline)
-                Text(cavernDateFormat.string(from: preview.time))
+                Text(CavernDateFomatter.string(from: preview.time))
                     .foregroundColor(.gray)
             }
             Spacer()
             
             Image(systemName: preview.islike ? "heart.fill" : "heart")
-                .onTapGesture {
-                   // like.toggle()
-                }
             Text(preview.likes_count)
         }.padding()
     }
@@ -33,8 +30,10 @@ struct ArticlePreviewRow: View {
 
 struct ArticlePreviewRow_Previews: PreviewProvider {
     static var previews: some View {
+        Group {
         ArticlePreviewRow(preview: articlePreviewResponseSample.posts[0])
         
         ArticlePreviewRow(preview: articlePreviewResponseSample.posts[1])
+        }.previewLayout(.fixed(width: 700, height: 100))
     }
 }
