@@ -4,7 +4,7 @@ struct ContentView: View {
     let list: [ArticlePreview]
     
     var body: some View {
-        if (list.isEmpty) {
+        if list.isEmpty {
             ProgressView("Loading articles")
         } else {
             ArticlePreviewList(previews: list)

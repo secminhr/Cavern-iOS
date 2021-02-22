@@ -14,6 +14,15 @@
 		4FE5CA3325E16D10005A818A /* ArticlePreviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */; };
 		4FE5CA3B25E2059D005A818A /* JsonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA3A25E2059B005A818A /* JsonTool.swift */; };
 		4FE5CA4625E25B35005A818A /* CavernRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA4525E25B34005A818A /* CavernRepo.swift */; };
+		4FE5CA4925E2ACD2005A818A /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA4825E2ACD1005A818A /* ArticleView.swift */; };
+		4FE5CA4C25E2AF64005A818A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA4B25E2AF63005A818A /* Article.swift */; };
+		4FE5CA4F25E2B162005A818A /* ArticleSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FE5CA4E25E2B162005A818A /* ArticleSample.json */; };
+		4FE5CA5525E2B4EC005A818A /* ArticleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5CA5425E2B4EC005A818A /* ArticleInfo.swift */; };
+		4FE7D05425E2BE9A0022962A /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7D05325E2BE9A0022962A /* MarkdownView.swift */; };
+		4FE7D05725E3853A0022962A /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7D05625E385390022962A /* CommentsView.swift */; };
+		4FE7D05A25E3EEB70022962A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7D05925E3EEB60022962A /* UserInfo.swift */; };
+		4FE7D05D25E3EFDB0022962A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7D05C25E3EFDB0022962A /* User.swift */; };
+		4FE7D06025E3F01A0022962A /* UserSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FE7D05F25E3F01A0022962A /* UserSample.json */; };
 		4FE8D9BB25DBEA4B0082E0C5 /* Cavern_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BA25DBEA4B0082E0C5 /* Cavern_iOSApp.swift */; };
 		4FE8D9BD25DBEA4B0082E0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BC25DBEA4B0082E0C5 /* ContentView.swift */; };
 		4FE8D9BF25DBEA4E0082E0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE8D9BE25DBEA4E0082E0C5 /* Assets.xcassets */; };
@@ -28,6 +37,15 @@
 		4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePreviewList.swift; sourceTree = "<group>"; };
 		4FE5CA3A25E2059B005A818A /* JsonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTool.swift; sourceTree = "<group>"; };
 		4FE5CA4525E25B34005A818A /* CavernRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernRepo.swift; sourceTree = "<group>"; };
+		4FE5CA4825E2ACD1005A818A /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		4FE5CA4B25E2AF63005A818A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		4FE5CA4E25E2B162005A818A /* ArticleSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArticleSample.json; sourceTree = "<group>"; };
+		4FE5CA5425E2B4EC005A818A /* ArticleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleInfo.swift; sourceTree = "<group>"; };
+		4FE7D05325E2BE9A0022962A /* MarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		4FE7D05625E385390022962A /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		4FE7D05925E3EEB60022962A /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4FE7D05C25E3EFDB0022962A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4FE7D05F25E3F01A0022962A /* UserSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserSample.json; sourceTree = "<group>"; };
 		4FE8D9B725DBEA4B0082E0C5 /* Cavern-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cavern-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE8D9BA25DBEA4B0082E0C5 /* Cavern_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cavern_iOSApp.swift; sourceTree = "<group>"; };
 		4FE8D9BC25DBEA4B0082E0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,8 +68,8 @@
 		4FE5CA3525E17067005A818A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4FE5CA2F25E16810005A818A /* ArticlePreviewRow.swift */,
-				4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */,
+				4FE5CA5325E2B4DC005A818A /* Article */,
+				4FE5CA5125E2B4C3005A818A /* Articles */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -61,6 +79,8 @@
 			children = (
 				4FE5CA2525E15EF8005A818A /* ArticlesSample.json */,
 				4FE5CA2C25E16548005A818A /* ArticlePreviewSample.json */,
+				4FE5CA4E25E2B162005A818A /* ArticleSample.json */,
+				4FE7D05F25E3F01A0022962A /* UserSample.json */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -77,8 +97,31 @@
 			isa = PBXGroup;
 			children = (
 				4FE5CA2825E15FCC005A818A /* ArticlePreview.swift */,
+				4FE5CA4B25E2AF63005A818A /* Article.swift */,
+				4FE7D05C25E3EFDB0022962A /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4FE5CA5125E2B4C3005A818A /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				4FE5CA2F25E16810005A818A /* ArticlePreviewRow.swift */,
+				4FE5CA3225E16D10005A818A /* ArticlePreviewList.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		4FE5CA5325E2B4DC005A818A /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				4FE5CA4825E2ACD1005A818A /* ArticleView.swift */,
+				4FE5CA5425E2B4EC005A818A /* ArticleInfo.swift */,
+				4FE7D05325E2BE9A0022962A /* MarkdownView.swift */,
+				4FE7D05625E385390022962A /* CommentsView.swift */,
+				4FE7D05925E3EEB60022962A /* UserInfo.swift */,
+			);
+			path = Article;
 			sourceTree = "<group>";
 		};
 		4FE8D9AE25DBEA4A0082E0C5 = {
@@ -138,6 +181,8 @@
 			dependencies = (
 			);
 			name = "Cavern-iOS";
+			packageProductDependencies = (
+			);
 			productName = "Cavern-iOS";
 			productReference = 4FE8D9B725DBEA4B0082E0C5 /* Cavern-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +210,8 @@
 				Base,
 			);
 			mainGroup = 4FE8D9AE25DBEA4A0082E0C5;
+			packageReferences = (
+			);
 			productRefGroup = 4FE8D9B825DBEA4B0082E0C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -181,6 +228,8 @@
 			files = (
 				4FE8D9C225DBEA4E0082E0C5 /* Preview Assets.xcassets in Resources */,
 				4FE5CA2D25E16548005A818A /* ArticlePreviewSample.json in Resources */,
+				4FE7D06025E3F01A0022962A /* UserSample.json in Resources */,
+				4FE5CA4F25E2B162005A818A /* ArticleSample.json in Resources */,
 				4FE5CA2625E15EF8005A818A /* ArticlesSample.json in Resources */,
 				4FE8D9BF25DBEA4E0082E0C5 /* Assets.xcassets in Resources */,
 			);
@@ -195,10 +244,17 @@
 			files = (
 				4FE5CA3025E16810005A818A /* ArticlePreviewRow.swift in Sources */,
 				4FE5CA4625E25B35005A818A /* CavernRepo.swift in Sources */,
+				4FE7D05725E3853A0022962A /* CommentsView.swift in Sources */,
+				4FE5CA4C25E2AF64005A818A /* Article.swift in Sources */,
 				4FE5CA2925E15FCC005A818A /* ArticlePreview.swift in Sources */,
+				4FE5CA5525E2B4EC005A818A /* ArticleInfo.swift in Sources */,
+				4FE7D05D25E3EFDB0022962A /* User.swift in Sources */,
+				4FE5CA4925E2ACD2005A818A /* ArticleView.swift in Sources */,
 				4FE8D9BD25DBEA4B0082E0C5 /* ContentView.swift in Sources */,
+				4FE7D05A25E3EEB70022962A /* UserInfo.swift in Sources */,
 				4FE5CA3B25E2059D005A818A /* JsonTool.swift in Sources */,
 				4FE8D9BB25DBEA4B0082E0C5 /* Cavern_iOSApp.swift in Sources */,
+				4FE7D05425E2BE9A0022962A /* MarkdownView.swift in Sources */,
 				4FE5CA3325E16D10005A818A /* ArticlePreviewList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

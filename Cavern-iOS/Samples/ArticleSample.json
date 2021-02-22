@@ -1,0 +1,13 @@
+{
+    "fetch":1613921262354,
+    "post":{
+        "author":"t510599",
+        "name":"\u77f3\u982d\u5410\u53f8",
+        "title":"[\u7b46\u8a18] vue-cli-service serve: Invalid Host header",
+        "content":"Add `devServer &gt; disableHostCheck` in `vue.config.js`\r\n```javascript\r\nmodule.exports = {\r\n  \/\/...\r\n  devServer: {\r\n    disableHostCheck: true,\r\n  }\r\n}\r\n```\r\n\r\nReference:\r\n- https:\/\/github.com\/vuejs-templates\/webpack\/issues\/1205\r\n- https:\/\/blog.csdn.net\/guzhao593\/article\/details\/85918869",
+        "time":"2021-02-04 23:58:56",
+        "likes_count":"2",
+        "comments_count":"0",
+        "islike":false
+    }
+}
